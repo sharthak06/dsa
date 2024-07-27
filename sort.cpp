@@ -13,9 +13,11 @@ struct Student {
 	void get_data(){
 		cout << "Enter name";
 		cin.ignore();
-		getline(cin)
+		getline(cin,name);
 	}
 
+   //This comment was pushed
+	
 
 };
 
